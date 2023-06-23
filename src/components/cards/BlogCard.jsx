@@ -2,7 +2,7 @@ import React from "react";
 
 function BlogCard(props){
     return(
-        <div className={`rounded-2xl border card border-[#303030] bg-gray-100 p-3 shadow-black shadow-2xl ${props.adaptiveGridClass}`}>
+        <div className={`rounded-2xl border card border-[#303030] bg-gray-100 p-3 shadow-black hover:shadow-gray-800 shadow-2xl ${props.adaptiveGridClass}`}>
             <div className="flex flex-col h-full p-6 rounded-2xl bg-white border border-[#303030]">
                 <div className="flex-grow">
                     <h3 className="text-2xl font-bold mb-4">

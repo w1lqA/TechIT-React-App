@@ -2,7 +2,7 @@ import React from "react";
 
 function ReviewCard(props){
     return(
-    <div className="rounded-2xl card md:col-span-2 lg:col-span-1 bg-gray-100 border border-[#303030] p-3 shadow-gray-500 shadow-2xl">
+    <div className="rounded-2xl card md:col-span-2 lg:col-span-1 bg-gray-100 border border-[#303030] p-3 shadow-gray-500 hover:shadow-gray-600 shadow-2xl">
         <div className="px-4 py-5 sm:p-6 flex flex-col h-full p-6 border bg-white border-[#303030] card rounded-2xl ">
             <div className="flex-grow">
                 <blockquote className="mb-4">

@@ -51,7 +51,7 @@ function Product(props){
     };
 
     return(
-        <div className={`rounded-2xl card mx-auto border p-3 border-[#303030] max-w-[30rem] shadow-black shadow-2xl sm:max-w-none bg-gray-100 ${props.adaptiveGridClass}`}>
+        <div className={`rounded-2xl card mx-auto border p-3 hover:shadow-gray-800 border-[#303030] max-w-[30rem] shadow-black shadow-2xl sm:max-w-none bg-gray-100 ${props.adaptiveGridClass}`}>
             <div className="flex flex-col h-full p-6 border border-[#303030] card rounded-2xl bg-white">
                 <div className="flex-grow">
                     <img src={props.productImage} alt="Product 1" className="mb-4 rounded-2xl border border-[#303030]" />

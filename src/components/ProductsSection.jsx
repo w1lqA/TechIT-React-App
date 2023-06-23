@@ -9,7 +9,7 @@ function ProductsSection() {
   return (
     <section className="bg-gray-300" id="products">
       <div>
-      <SectionTitle sectionTitle={"Our products"} sectionIcon={"shopping-cart"}/>
+      <SectionTitle sectionTitle={"Our Products"} sectionIcon={"shopping-cart"}/>
         <div className="container mx-auto py-16 lg:py-32">
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
             <ProductCard modalName={'Modal1'} productImage={Product1} productName={'TechShield Security Suite'} productDescription={'Protect your data with our advanced security suite. It includes robust encryption, multi-factor authentication, and real-time threat monitoring.'}/>

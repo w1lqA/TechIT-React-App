@@ -26,7 +26,7 @@ function Footer() {
                 TechIT
             </a>
         </div>
-        <p className="mx-auto lg:mr-auto lg:mx-0">&copy; 2023 TechIT. All rights reserved. Developed by <a className="text-[#cff800] hover:text-[#788340]" href="https://github.com/w1lqA" >w1lqA</a></p>
+        <p className="mx-auto text-center lg:mr-auto lg:mx-0">&copy; 2023 TechIT. All rights reserved. Developed by <a className="text-[#cff800] hover:text-[#788340]" href="https://github.com/w1lqA" >w1lqA</a></p>
         </div>
     </footer>
     );
