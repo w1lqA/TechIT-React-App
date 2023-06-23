@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/TechIT-React-App/static/css/main.41354379.css",
+    "main.js": "/TechIT-React-App/static/js/main.5b9ede37.js",
+    "static/media/blog-post-1.png": "/TechIT-React-App/static/media/blog-post-1.968b4fc5141f0dae6476.png",
+    "static/media/blog-post-2.png": "/TechIT-React-App/static/media/blog-post-2.08c054ca39900b08f61e.png",
+    "static/media/blog-post-3.png": "/TechIT-React-App/static/media/blog-post-3.4541042ce15fde10e105.png",
+    "static/media/bg-2.png": "/TechIT-React-App/static/media/bg-2.ff7cd65f6e0528c3c170.png",
+    "static/media/user1.png": "/TechIT-React-App/static/media/user1.e26d6ddaeea8340c6267.png",
+    "static/media/user2.png": "/TechIT-React-App/static/media/user2.9957d9cbf7ac67d08eb5.png",
+    "static/media/user3.png": "/TechIT-React-App/static/media/user3.762d5a8c1054e611f3aa.png",
+    "static/media/product2.png": "/TechIT-React-App/static/media/product2.a9fe761b5d7fadddfd75.png",
+    "static/media/product3.png": "/TechIT-React-App/static/media/product3.9fa3ed66fef46b13ac6a.png",
+    "static/media/product1.png": "/TechIT-React-App/static/media/product1.4788dc5c893a352be458.png",
+    "static/media/bg-3.png": "/TechIT-React-App/static/media/bg-3.13be905b59e7c3827ba5.png",
+    "static/media/bg-1.png": "/TechIT-React-App/static/media/bg-1.831823445f070cc6de09.png",
+    "index.html": "/TechIT-React-App/index.html",
+    "main.41354379.css.map": "/TechIT-React-App/static/css/main.41354379.css.map",
+    "main.5b9ede37.js.map": "/TechIT-React-App/static/js/main.5b9ede37.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.41354379.css",
+    "static/js/main.5b9ede37.js"
+  ]
+}
