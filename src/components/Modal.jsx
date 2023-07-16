@@ -31,9 +31,9 @@ function Modal(props) {
   }, []);
 
   return (
-    <section className="fixed inset-0 flex card items-start justify-center z-50 py-12 overflow-y-auto">
+    <section className="fixed inset-0 flex card items-start justify-center z-50 py-6 overflow-y-auto">
       <div className="fixed inset-0 bg-black opacity-50 pointer-events-none" onClick={closeModal}></div>
-      <div ref={modalRef} className="relative border border-[#303030]  max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl bg-gray-100 rounded-2xl shadow-black shadow-2xl p-3">
+      <div id="modal-card" ref={modalRef} className="relative border border-[#303030]  max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl bg-gray-100 rounded-2xl shadow-black shadow-2xl p-3">
         <div className="flex flex-col h-full p-6 border border-[#303030] rounded-2xl bg-white overflow-y-auto">
           <div className="flex-grow">
             <img src={props.modal.modalImage} alt="Product 1" className="mb-4 rounded-2xl" />

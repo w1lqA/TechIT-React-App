@@ -78,3 +78,34 @@ button,
 strong{
     color: #303030;
 }
+
+  
+@keyframes slideDown {
+    0% { 
+      transform: translateY(-50%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+}
+
+@keyframes slideUp {
+    0% { 
+      transform: translateY(30%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+}
+
+#navbar-list{
+    animation: slideDown 300ms ease-in-out;
+}
+
+#modal-card{
+    animation: slideUp 300ms ease-in-out;
+}
+
+a {
+    cursor: pointer;
+}

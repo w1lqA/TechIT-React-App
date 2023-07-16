@@ -6,7 +6,7 @@ import Product2Img from "../../assets/product2.png"
 import Product3Img from "../../assets/product3.png"
 
 function Product(props){
-    const [modals, setModal1] = useState([
+    const [modals] = useState([
         {modalID: 'Modal1', 
         modalImage: Product1Img,
         modalTitle: 'TechShield Security Suite', 
