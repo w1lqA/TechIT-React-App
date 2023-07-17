@@ -13,7 +13,8 @@ font-family: 'Prompt', sans-serif;
 }
 
 
-header a:hover{
+header a:hover, 
+footer a:hover{
 /* color: #404040; */
 color:#ffffff7e;
 }

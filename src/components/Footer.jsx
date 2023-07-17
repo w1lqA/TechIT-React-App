@@ -32,16 +32,16 @@ function Footer() {
         </nav>
         <div className="max-w-7xl mx-auto">
             <ul className="space-x-8 py-6 flex justify-center">
-            <a href="https://www.linkedin.com/in/w1lqa/"><FontAwesomeIcon icon={faLinkedin} className='text-white hover:text-gray-400 transition transform duration-300 hover:ease w-10 sm:w-max' color='white' size='3x'/></a>
-            <a href="https://t.me/w1lqA"><FontAwesomeIcon icon={faTelegram} className='text-white hover:text-gray-400 transition transform duration-300 hover:ease w-10 sm:w-max' size='3x'/></a>
-            <a href="https://github.com/w1lqA"><FontAwesomeIcon icon={faGithub} className='text-white hover:text-gray-400 transition transform duration-300 hover:ease w-10 sm:w-max' color='white' size='3x'/></a>
+                <a href="https://www.linkedin.com/in/w1lqa/"><FontAwesomeIcon icon={faLinkedin} className='text-white hover:text-gray-400 transition transform duration-300 hover:ease-out w-10 sm:w-max' color='white' size='3x'/></a>
+                <a href="https://t.me/w1lqA"><FontAwesomeIcon icon={faTelegram} className='text-white hover:text-gray-400 transition transform duration-300 hover:ease-out w-10 sm:w-max' size='3x'/></a>
+                <a href="https://github.com/w1lqA"><FontAwesomeIcon icon={faGithub} className='text-white hover:text-gray-400 transition transform duration-300 hover:ease-out w-10 sm:w-max' color='white' size='3x'/></a>
             </ul>
             <hr className="border border-white rounded-full my-3 mx-3"/>
             <Link {...linkProps} id="navlogo" to='welcome' className="flex justify-center text-4xl mt-6 text-center font-bold text-[#cff800] hover:text-[#cff80083]">
                 TechIT
             </Link>
         </div>
-        <p className="mx-auto text-center lg:mr-auto lg:mx-0">&copy; 2023 TechIT. All rights reserved. Developed by <a className="text-[#cff800] hover:text-[#788340]" href="https://github.com/w1lqA" >w1lqA</a></p>
+        <p className="mx-auto text-center lg:mr-auto lg:mx-0">&copy; 2023 TechIT. All rights reserved. Developed by <a className="text-[#cff800] hover:text-[#cff80083]" href="https://github.com/w1lqA" >w1lqA</a></p>
         </div>
     </footer>
     );
